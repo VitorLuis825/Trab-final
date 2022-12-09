@@ -1,0 +1,48 @@
+.page_wrapper{
+    padding: 1em 8em;
+}
+.wizard{
+    background-color: #f9f9fa;
+    color: grey;
+    font-size: 1.5em;
+    padding: 0.5em 1em;
+    width: 100%;
+    font-family: sans-serif;
+     font-weight: 100;
+}
+
+.product_container{
+    width: 100%;
+    display: flex;
+    padding-top: 3em;
+    height: 500px;
+}
+.product_container > img{
+    height: 500px;
+    margin-right: 5em;
+}
+.texts{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    justify-content: space-around;
+}
+
+.product_container h1{
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 3.5em;
+}
+.desc{
+    font-size: 1.25em;
+    width: 80%;
+    text-align: center;
+}
+.price{
+    font-weight: 900;
+    color: #a9d4b1;
+    font-size: xx-large;
+    font-size: 2.5em;
+}

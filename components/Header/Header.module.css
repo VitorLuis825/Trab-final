@@ -1,0 +1,26 @@
+.hedaer{
+    width: 100%;
+    display: flex;
+    padding: 1em 4em;
+    justify-content: space-between;
+    align-items: center;
+}
+.buttons{
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly;
+}
+.buttons > button{
+    border: none;
+    text-transform: uppercase;
+    font-weight: 100;
+    letter-spacing: 1px;
+    font-size: 2em;
+    background-color: white;
+    padding: 1em 0.5em;
+}
+.buttons > button:hover{
+    background-color: #9287b3;
+    color: white;
+    transition: all 150ms ease-in;
+}
